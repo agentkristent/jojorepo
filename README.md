@@ -57,4 +57,3 @@ def getCoreData(data):
             spacex_url="https://api.spacexdata.com/v4/launches/past"a
             response = requests.get(spacex_url)
             print(response.content)
-            
